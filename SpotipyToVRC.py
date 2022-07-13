@@ -3,8 +3,8 @@ import socket
 from spotipy.oauth2 import SpotifyOAuth
 
 #getting spotify music data
-SPOTIPY_CLIENT_ID='f166bc6b5d994036baf7c04720dbbfa3'
-SPOTIPY_CLIENT_SECRET='8c1dd8b69ff7475cb2950610e7a94d80'
+SPOTIPY_CLIENT_ID='CLIENT ID'
+SPOTIPY_CLIENT_SECRET='CLIENT SECRET'
 SPOTIPY_REDIRECT_URI='http://localhost'
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(SPOTIPY_CLIENT_ID,
